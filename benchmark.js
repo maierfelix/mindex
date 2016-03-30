@@ -2,7 +2,7 @@
 
 var _ = require('lodash')
 var faker = require('faker')
-var createIndex = require('./src/mindex')
+var createIndex = require('./dist/mindex').default
 var Benchmark = require('benchmark')
 var colors = require('colors')
 var async = require('async')

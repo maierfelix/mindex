@@ -4,7 +4,7 @@
 /* global it */
 
 var assert = require('chai').assert
-var createIndex = require('../src/mindex')
+var createIndex = require('../dist/mindex.min.js').default
 
 var testdb = [
   { age: 46,
